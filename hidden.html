@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        h1 { color: #333; }
+        .box { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .note { color: #c00; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>This is a hidden page (hidden.html)</h1>
+        <p>This page exists on the site, but access is blocked in <code>robots.txt</code>.</p>
+        <p class="note">Googlebot will NOT crawl this page, even if it is listed in the Sitemap.</p>
+        <p>Use this page to test the priority of <code>robots.txt</code> over the Sitemap.</p>
+        <hr>
+        <p><small>Created for the Google Search Console experiment.</small></p>
+    </div>
+</body>
+</html>
